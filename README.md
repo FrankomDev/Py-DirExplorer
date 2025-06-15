@@ -1,5 +1,18 @@
 # Python DirExplorer
 
-Something like gobuster but made by me using Python!
+Python web directory/subdomain finder -- something like dirbuster
 
-more coming soon...
+## Usage
+``git clone https://github.com/FrankomDev/Py-DirExplorer.git``
+``cd Py-DirExplorer/``
+``pip install -r requirements.txt``
+``python3 direxplorer.py -h``
+
+or with venv:
+
+``python3 -m venv venv``
+``./venv/bin/pip install -r requirements.txt``
+``./venv/bin/python3 direxplorer.py -h``
+
+## Example
+``python3 direxplorer.py -u https://frankom.top -w wordlist.txt -a dns``
